@@ -3,24 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WWW.Technest.com</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="./home.css">
-
-    <!-- URL : font awesome to add icon -->
+    <title>TechNest-Store</title>
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    
-    <!-- tailwindcss -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="./Home.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=fiber_manual_record" />
 </head>
 <body>
-       
-    <div class="container">
-            <!-- logo -->
-        <div class="menu">
+
+    <div class="menu">
             <div class="logo">
                 TechNest
             </div>
@@ -32,7 +23,7 @@
                         <i class="fa-solid fa-cart-shopping"></i>
                         <i class="fa-solid fa-user"></i>
                     </div>
-        </div>
+    </div>
 
 
 
@@ -60,20 +51,236 @@
                 </ul>
             </div>
 
-            <div class="banner">
-                <img src="./Img TechNest/MSIBanner.jpg" alt="">
+
+
+    <div class="slider">
+            <div class="slides">
+                <img src="./Img TechNest/MSIBanner.jpg" alt="Slide 1">
+                <img src="./Img TechNest/banner Watch Galaxy.webp" alt="Slide 2">
+                <img src="./Img TechNest/Banner_iPhone_17.webp" alt="Slide 3">
             </div>
-
-
-
-
-
-
-
-
     </div>
 
+        <div class="dots">
+            <span class="material-symbols-outlined" onclick="currentSlide(0)">fiber_manual_record</span>
+            <span class="material-symbols-outlined" onclick="currentSlide(1)">fiber_manual_record</span>
+            <span class="material-symbols-outlined" onclick="currentSlide(2)">fiber_manual_record</span>
+        </div>
+
+                <!-- code menu img  -->
+        <section class="container-category">
+            <div class="category-item">
+                <a href="">
+                    <img src="./Img TechNest/Menu-img/Watch.jpg" alt="Samrt Watch">
+                    <p class="msi">Smart Watch</p>
+                </a>
+            </div>
+
+            <div class="category-item">
+                <a href="">
+                    <img src="./Img TechNest/Menu-img/MSi.jpg" alt="MSI">
+                    <p class="msi">Laptop</p>
+                </a>
+            </div>
+
+            <div class="category-item">
+                <a href="">
+                    <img src="./Img TechNest/Menu-img/Iphone.jpg" alt="Iphone">
+                    <p class="msi" >Iphone</p>
+                </a>
+            </div>
+
+            <div class="category-item">
+                <a href="">
+                    <img src="./Img TechNest/Menu-img/Andrion.jpg" alt="Andrion">
+                    <p class="msi">Andrion</p>
+                </a>
+            </div>
+        </section>
 
 
+    <!-- trending Producet code  -->
+        <div class="container-product">
+            <div class="text-header">
+                <p>Trending Products</p>
+            </div>
+            <div class="line">
+                <hr class="green">
+                <hr class="black">
+            </div>
+                    <div class="banner">
+                        <div class="ban1">
+                            <img src="./Img TechNest/41EiU+1qrYL._SL500_.jpg" alt="">
+                            <p></p>
+                            <a href="#">
+                                <button class="btn">BUY</button>
+                            </a>
+                            
+                        </div>
+
+                        <div class="ban1">
+                            <img src="./Img TechNest/apple-iphone-16-2815.webp" alt="">
+                            <p></p>
+                            <a href="#">
+                                <button class="btn">BUY</button>
+                            </a>
+                            
+                        </div>
+
+                        <div class="ban1">
+                            <img src="./Img TechNest/qDiWC728ZbsZJuP34meocG.jpg" alt="">
+                            <p></p>
+                            <a href="#">
+                                <button class="btn">BUY</button>
+                            </a>
+                            
+                        </div>
+                    </div>
+    
+            
+        <div class="text-header">
+                <p>Featured Categories</p>
+        </div>
+            <div class="line">
+                <hr class="green">
+                <hr class="black">
+            </div>
+
+<section class="featured-product">
+    <div class="pic-1">
+        <img src="./Img TechNest/Sleek & Modern Smartwatch Design.jpg" alt="">
+    </div>
+
+                    <div class="item-header">
+                            <div class="imge">
+                                <img src="./Img TechNest/Andrion/galaxy S24 FE.jpg" alt="">
+                            </div>
+                        <div class="item-footer">
+                            <div class="item-name">Galaxy S24 FE </div>
+                            <div class="item-review">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="text">4.0</p>
+                                <p class="view">(1.0k Reviews)</p>
+                                <p class="price">649.99$</p>
+                            </div>
+                            <div class="item-buy">
+                                <div class="btn-add">
+                                    <a href="#">
+                                        <button>Add to Chart</button>
+                                    </a>
+                                </div>
+                                <div class="btn-buy">
+                                    <a href="#">
+                                        <button>Buy Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item-header">
+                            <div class="imge">
+                                <img src="./Img TechNest/Andrion/galaxy S24 FE.jpg" alt="">
+                            </div>
+                        <div class="item-footer">
+                            <div class="item-name">Galaxy S24 FE </div>
+                            <div class="item-review">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="text">4.0</p>
+                                <p class="view">(1.0k Reviews)</p>
+                                <p class="price">649.99$</p>
+                            </div>
+                            <div class="item-buy">
+                                <div class="btn-add">
+                                    <a href="#">
+                                        <button>Add to Chart</button>
+                                    </a>
+                                </div>
+                                <div class="btn-buy">
+                                    <a href="#">
+                                        <button>Buy Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-header">
+                            <div class="imge">
+                                <img src="./Img TechNest/Andrion/galaxy S24 FE.jpg" alt="">
+                            </div>
+                        <div class="item-footer">
+                            <div class="item-name">Galaxy S24 FE </div>
+                            <div class="item-review">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="text">4.0</p>
+                                <p class="view">(1.0k Reviews)</p>
+                                <p class="price">649.99$</p>
+                            </div>
+                            <div class="item-buy">
+                                <div class="btn-add">
+                                    <a href="#">
+                                        <button>Add to Chart</button>
+                                    </a>
+                                </div>
+                                <div class="btn-buy">
+                                    <a href="#">
+                                        <button>Buy Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-header">
+                            <div class="imge">
+                                <img src="./Img TechNest/Andrion/galaxy S24 FE.jpg" alt="">
+                            </div>
+                        <div class="item-footer">
+                            <div class="item-name">Galaxy S24 FE </div>
+                            <div class="item-review">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="text">4.0</p>
+                                <p class="view">(1.0k Reviews)</p>
+                                <p class="price">649.99$</p>
+                            </div>
+                            <div class="item-buy">
+                                <div class="btn-add">
+                                    <a href="#">
+                                        <button>Add to Chart</button>
+                                    </a>
+                                </div>
+                                <div class="btn-buy">
+                                    <a href="#">
+                                        <button>Buy Now</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+        
+</section>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- footer web -->
+        <div class="feater">
+           <p>TechNest-Shopping</p> 
+           <i class="fa-solid fa-computer"></i>
+
+        </div>
 </body>
 </html>
