@@ -302,7 +302,7 @@ body {
     }
     .pic-1 img{
         margin-top: 35px;
-        width: 297px;
+        width: 287px;
         height: 295px;
         border: 1px #3333334e solid;
         border-radius: 3px;
@@ -324,7 +324,7 @@ body {
     .imge img{
         margin-top: 1px;
         width: 190px;
-        height:auto;
+        height: 187px;
         border: #000000 1px solid;
         border-radius: 25px;
     }
@@ -385,6 +385,7 @@ body {
         font-size: 10px;
         font-weight: bold;
         font-family: "inter";
+        cursor: pointer;
     }
     .btn-buy {
         width: 86px;
@@ -401,4 +402,49 @@ body {
         font-family: "inter";
         color: white;
         background-color: black;
+        cursor: pointer;
     }
+    .btn-add  a button:active{
+        transform: scale(0.95);
+    }
+    .btn-buy a button:active{
+        transform: scale(0.95);
+    }
+
+.item2{
+    display: flex;
+    flex-direction: row;
+}
+.baner-1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+    .p1{
+        width:49%;
+        height:226px;
+        margin-top: 1px;
+        
+    }
+    .p1 img{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+    .p2{
+        width:50%;
+        height:226px;
+        margin-top: 1px; 
+    }
+    .p2 img{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    
