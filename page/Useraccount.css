@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* header line */
+.menu{
+    width: 100%;
+    height: 135px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 40px;
+    gap:100px;
+}
+.menu-home{
+    width:20%;
+}
+    .menu-home a{
+        text-decoration: none;
+        font-size: 20px;
+        color:rgb(255, 255, 255);
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        position: relative;
+        top:10px;
+    }
+.logo{
+    width:60%;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffff;
+}
+.menu-icon{
+    width:20%;
+    text-align: center;
+}
+.menu-icon a{
+    text-decoration: none;
+}
+    .fa-magnifying-glass{
+        color:rgb(0, 0, 0);
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .fa-cart-shopping{
+        margin-top: 5px;
+        font-size: 40px;
+        color:white;
+    }
+    .fa-cart-shopping:hover{
+        color: #9DD24C;
+    }
+    .fa-user:hover{
+        color: #9DD24C;
+    }
+    .fa-magnifying-glass:hover{
+        transform: scale(1.1);
+    }
+    .fa-user{
+        margin-top: 5px;
+        padding-left: 53px;
+        font-size:40px;
+        color:white;
+    }
+
+
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.login-box {
+      background: #fff;
+      padding: 40px;
+      width: 350px;
+      border: 1px solid #ccc;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+      border-radius: 4px;
+      text-align: center;
+      position: relative;
+      left: 38%;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .input-group {
+      text-align: left;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .input-group label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px 35px 10px 10px;
+      border: none;
+      border-bottom: 1px solid #333;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .input-group .material-symbols-outlined {
+      position: absolute;
+      right: 10px;
+      top: 35px;
+      color: #4CAF50;
+    }
+    .input-group .fa-lock {
+      position: absolute;
+      right: 10px;
+      top: 35px;
+      color: #4CAF50;
+    }
+
+    .forgot {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .login-btn {
+      background: #8BC34A;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    .register {
+      font-size: 13px;
+    }
+
+    .register a {
+      color: #8BC34A;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* feater */
+    .feater{
+    width:100%;
+    height: 40px;
+    background-color: #9DD24C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    position: relative;
+    bottom: 0%;
+}
+.feater p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #000000;
+}
+.feater .fa-computer{
+    font-size: 16px;
+    margin: 0px 10px;
+    margin-top: 4.8px;
+}
