@@ -120,6 +120,32 @@ body {
     .menu-bar ul li a:active{
         transform: scale(0.95);
     }
+    /* .slider{
+            height: 507px;
+            width:100%;
+            background-size: 100% 100%;
+            /* box-shadow: 20px 20px 10px gray ; */
+            /* animation: sliders 10s linear infinite; */
+        /* }
+        @keyframes sliders {
+            0%{background-image: url(./Img\ TechNest/);}
+            50%{background-image: url(./Banner_iPhone_17.webp);}
+            100%{background-image: url(./MSIBanner.jpg);}
+           
+        } */ 
+         .div{
+            height: 507px;
+            width:100%;
+            background-size: 100% 100%;
+            /* box-shadow: 20px 20px 10px gray ; */
+            animation: slider 10s linear infinite;
+        }
+        @keyframes slider {
+            0%{background-image: url(./page/banner\ Watch\ Galaxy.webp);}
+            50%{background-image: url(./page/Banner_iPhone_17.webp);}
+            100%{background-image: url(./page/MSIBanner.jpg);}
+           
+        }
 
     .slider {
       position: relative;
@@ -421,7 +447,6 @@ body {
 .baner-1{
     width: 100%;
     height: auto;
-    overflow: hidden;
     display: flex;
     flex-direction: row;
     gap:10px;
