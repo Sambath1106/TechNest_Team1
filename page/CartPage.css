@@ -224,6 +224,7 @@ body {
       position: relative;
       right: 100px;
       top:50px;
+      height: 250px;
     }
 
     .order-summary-header {
@@ -263,9 +264,10 @@ body {
       font-weight: bold;
       display: flex;
       justify-content: space-between;
+      margin-top: 10px;
     }
     .end{
-        border-bottom: 1px solid #ccc;
+        border-bottom: 0px solid #ccc;
     }
 
 
