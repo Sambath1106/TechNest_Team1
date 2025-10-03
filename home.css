@@ -190,12 +190,18 @@ body {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 .category-item{
     width:100%;
     display: flex;
     flex-direction: column;
 }
+    .category-item a img:hover{
+        box-shadow: 0 0 5px black;
+        transition: 0.3s;
+        transform: translateY(-3px);
+    }
 .category-item a {
     text-decoration: none;
     color: #000000;
@@ -346,6 +352,11 @@ body {
        flex-direction: column;
        padding-left: 58px;
     }
+        .imge img:hover{
+            transition: 0.3s;
+            transform: translateY(-3px);
+            box-shadow: 0 0 5px black;
+        }
     .imge{
        margin-right: auto;
        margin-left: auto;
@@ -473,6 +484,4 @@ body {
         height: 100%;
         border: none;
         border-radius: 5px;
-    }
-    
-    
+    }   
